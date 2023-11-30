@@ -192,3 +192,49 @@ body div[data-wnd_mvc_type="wnd.pc.PageZone"] * {
 .l-w *, body {
     box-sizing: border-box;
 }
+.sc-w {
+    color: #666;
+}
+.wnd-p-cc .i-a {
+    text-align: center;
+}
+body div[data-wnd_mvc_type="wnd.pc.PageZone"] * {
+    transition: none;
+}
+body div[data-wnd_mvc_type="wnd.pc.PageZone"] * {
+    transition: none;
+}
+.s-hc-button, .s-hc-claim {
+    margin: 0;
+}
+.claim {
+    line-height: 0;
+}
+.claim {
+    letter-spacing: 0;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.b-btn {
+    text-align: center;
+}
+.b-s-b150 {
+    padding-bottom: 0.9375rem;
+}
+.b-s-t150 {
+    padding-top: 0.9375rem;
+}
+.b-s {
+    padding: 0.625rem;
+}
+.b {
+    padding: 0;
+    margin: 0;
+}
