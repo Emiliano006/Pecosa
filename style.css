@@ -289,10 +289,6 @@ h2 {
 [contenteditable=true] {
     outline: 0;
 }
-.wnd-touchwysiwyg {
-    display: block;
-    outline: 0;
-}
 .l-w *, body {
     box-sizing: border-box;
 }
@@ -317,3 +313,36 @@ span {
 .b-btn-bw-1 .b-btn-l .b-btn-t, .b-btn-bw-1 .wnd-replace-form-button .b-btn-t {
     text-decoration-thickness: 1px;
 }
+span[Attributes Style] {
+    -webkit-user-modify: read-write;
+    overflow-wrap: break-word;
+    -webkit-line-break: after-white-space;
+}
+.claim .claim-46 {
+    font-size: 1.75rem;
+}
+@media screen and (min-width: 37.5em)
+.claim .claim-46 {
+    font-size: 2.125rem;
+}
+@media screen and (min-width: 37.5em)
+.claim-nb {
+    line-height: 150%;
+}
+.claim-nb {
+    line-height: 156%;
+}
+.cormorant {
+    font-family: Cormorant Flex,Cormorant-Flex-Fallback,serif;
+    font-weight: 400;
+}
+.sit, .sit-w {
+    display: inline-block;
+    max-width: 100%;
+}
+.sit {
+    position: relative;
+    padding: 0.3125rem;
+    overflow: hidden;
+}
+
