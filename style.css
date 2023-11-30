@@ -81,10 +81,6 @@ html {
 .cf:after {
     clear: both;
 }
-.cf:after, .cf:before {
-    content: "";
-    display: table;
-}
 ::selection {
     background-color: rgba(105,160,215,.4);
 }
@@ -112,11 +108,6 @@ html {
 .s {
     position: relative;
 }
-.l-w *, body {
-    box-sizing: border-box;
-}
-
-
 section {
     display: block;
 }
@@ -148,20 +139,6 @@ section {
 .s {
     position: relative;
 }
-.l-w *, body {
-    box-sizing: border-box;
-}
-.cf:after, .cf:before {
-    content: "";
-    display: table;
-}
-.cf:after {
-    clear: both;
-}
-.cf:after, .cf:before {
-    content: "";
-    display: table;
-}
 
 .sc-w {
     color: #666;
@@ -171,9 +148,6 @@ section {
 }
 .s {
     position: relative;
-}
-.l-w *, body {
-    box-sizing: border-box;
 }
 .sc-w {
     color: #666;
@@ -289,9 +263,6 @@ h2 {
 [contenteditable=true] {
     outline: 0;
 }
-.l-w *, body {
-    box-sizing: border-box;
-}
 span {
     -webkit-line-break: auto;
     line-break: auto;
@@ -369,5 +340,21 @@ span[Attributes Style] {
     padding-right: 0;
     padding-left: 0;
     margin: 0 auto;
+}
+.l-sidebar .l-h .sw, .l-sidebar .l-h .sw-c {
+    height: 100%;
+}
+.cz, .ez, .mz, .sw {
+    padding: 0;
+    margin: 0;
+}
+.l-sidebar .s-hn .s-w {
+    height: 100%;
+}
+.s-hn .s-o, .s-hn .s-w {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: inherit;
 }
 
