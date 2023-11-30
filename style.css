@@ -134,4 +134,61 @@ section {
 .t-p-fs-s .t {
     font-size: .875rem;
 }
-
+.l-m .s:last-child, .l-m .s:last-child .s-fs {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+body div[data-wnd_mvc_type="wnd.pc.PageZone"] * {
+    transition: none;
+}
+body div[data-wnd_mvc_type="wnd.pc.PageZone"] * {
+    transition: none;
+}
+.sc-w {
+    color: #666;
+}
+.s-hc {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.wnd-hh-auto {
+    height: auto;
+    min-height: 12.5rem;
+}
+.s {
+    position: relative;
+}
+.l-w *, body {
+    box-sizing: border-box;
+}
+.cf:after, .cf:before {
+    content: "";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+.cf:after, .cf:before {
+    content: "";
+    display: table;
+}
+body div[data-wnd_mvc_type="wnd.pc.PageZone"] * {
+    transition: none;
+}
+body div[data-wnd_mvc_type="wnd.pc.PageZone"] * {
+    transition: none;
+}
+.sc-w {
+    color: #666;
+}
+.wnd-h-auto {
+    height: auto;
+}
+.s {
+    position: relative;
+}
+.l-w *, body {
+    box-sizing: border-box;
+}
