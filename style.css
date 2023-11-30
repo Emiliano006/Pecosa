@@ -1,0 +1,36 @@
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0)!important;
+    -webkit-tap-highlight-color: transparent!important;
+}
+.l-sidebar .l-h {
+    grid-area: a;
+    width: 100%;
+    height: auto;
+    position: static;
+    float: none;
+    clear: both;
+}
+body div[data-wnd_mvc_type="wnd.pc.PageZone"] * {
+    transition: none;
+}
+body div[data-wnd_mvc_type="wnd.pc.PageZone"] * {
+    transition: none;
+}
+.l-h, .l-m {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.l-h {
+    grid-area: a;
+}
+.l-w *, body {
+    box-sizing: border-box;
+}
+header {
+    display: block;
+}
