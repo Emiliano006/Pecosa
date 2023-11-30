@@ -17,9 +17,7 @@
 body div[data-wnd_mvc_type="wnd.pc.PageZone"] * {
     transition: none;
 }
-body div[data-wnd_mvc_type="wnd.pc.PageZone"] * {
-    transition: none;
-}
+
 .l-h, .l-m {
     width: 100%;
     margin: 0;
@@ -96,12 +94,7 @@ html {
 .wnd-cms .s-hn {
     padding-top: 0;
 }
-body div[data-wnd_mvc_type="wnd.pc.PageZone"] * {
-    transition: none;
-}
-body div[data-wnd_mvc_type="wnd.pc.PageZone"] * {
-    transition: none;
-}
+
 .sc-w {
     color: #666;
 }
@@ -139,12 +132,7 @@ section {
     display: flex;
     flex-direction: column;
 }
-body div[data-wnd_mvc_type="wnd.pc.PageZone"] * {
-    transition: none;
-}
-body div[data-wnd_mvc_type="wnd.pc.PageZone"] * {
-    transition: none;
-}
+
 .sc-w {
     color: #666;
 }
@@ -174,12 +162,7 @@ body div[data-wnd_mvc_type="wnd.pc.PageZone"] * {
     content: "";
     display: table;
 }
-body div[data-wnd_mvc_type="wnd.pc.PageZone"] * {
-    transition: none;
-}
-body div[data-wnd_mvc_type="wnd.pc.PageZone"] * {
-    transition: none;
-}
+
 .sc-w {
     color: #666;
 }
@@ -198,12 +181,7 @@ body div[data-wnd_mvc_type="wnd.pc.PageZone"] * {
 .wnd-p-cc .i-a {
     text-align: center;
 }
-body div[data-wnd_mvc_type="wnd.pc.PageZone"] * {
-    transition: none;
-}
-body div[data-wnd_mvc_type="wnd.pc.PageZone"] * {
-    transition: none;
-}
+
 .s-hc-button, .s-hc-claim {
     margin: 0;
 }
@@ -284,5 +262,59 @@ h2 {
 }
 .b-btn {
     text-align: center;
+}
+.wnd-wsw {
+    position: relative;
+    min-height: 1em;
+    min-width: 1em;
+    -webkit-user-select: auto!important;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-nbsp-mode: inherit!important;
+    outline: 0;
+}
+[contenteditable=true] {
+    outline: 0;
+}
+.wnd-touchwysiwyg {
+    display: block;
+    outline: 0;
+}
+.wnd-wsw {
+    position: relative;
+    min-height: 1em;
+    min-width: 1em;
+    -webkit-user-select: auto!important;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-nbsp-mode: inherit!important;
+    outline: 0;
+}
+[contenteditable=true] {
+    outline: 0;
+}
+.wnd-touchwysiwyg {
+    display: block;
+    outline: 0;
+}
+.l-w *, body {
+    box-sizing: border-box;
+}
+span {
+    -webkit-line-break: auto;
+    line-break: auto;
+}
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0)!important;
+    -webkit-tap-highlight-color: transparent!important;
+}
+
+
+:focus-visible {
+    outline: -webkit-focus-ring-color auto 1px;
 }
 
