@@ -682,4 +682,88 @@ element.style {
 .t-p-fs-s .t .c-c {
     font-size: .875rem;
 }
+.wnd-resize-stripe {
+    position: absolute;
+    padding: 0!important;
+    margin: 0!important;
+    background: rgba(0,0,0,0);
+    cursor: e-resize;
+}
+.wnd-resize-stripe .wnd-resize-stripe-border, .wnd-resize-stripe .wnd-resize-stripe-border:hover {
+    height: 100%;
+}
+.wnd-resize-stripe .wnd-resize-stripe-border {
+    position: absolute;
+    left: 50%;
+    width: 1px;
+    background: rgba(0,0,0,0) url(../img/hovers/hover-border.svg) repeat-y;
+    opacity: .2;
+    visibility: hidden;
+}
+.wnd-block-hover {
+    position: absolute;
+    z-index: 2;
+    cursor: default;
+    background: rgba(0,0,0,0);
+}
+.wnd-base, .wnd-base * {
+    font-family: "Proxima Nova",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    background: none rgba(0,0,0,0);
+    color: #000;
+    line-height: normal;
+    letter-spacing: initial;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+.wnd-base, .wnd-base * {
+    font-family: "Proxima Nova",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    background: none rgba(0,0,0,0);
+    color: #000;
+    line-height: normal;
+    letter-spacing: initial;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+.wnd-base {
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wnd-block-hover.top:not(.active) .border {
+    width: calc(100% - 1px);
+}
+.wnd-block-hover.movable {
+    cursor: move;
+}
+.wnd-block-hover.active.left .border, .wnd-block-hover.active.right .border {
+    width: 1px;
+    height: 100%;
+    top: 0;
+    background: rgba(255,255,255,.7);
+}
+.wnd-resize-box.left {
+    left: 0;
+    cursor: w-resize;
+    margin-left: -25px;
+}
+.wnd-resize-box.left, .wnd-resize-box.right {
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+}
+.wnd-block-hover .wnd-resize-box {
+    visibility: visible;
+}
 
