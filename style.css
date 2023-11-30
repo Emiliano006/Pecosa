@@ -260,9 +260,7 @@ h2 {
     text-align: center;
     border-style: solid;
 }
-.b-btn {
-    text-align: center;
-}
+
 .wnd-wsw {
     position: relative;
     min-height: 1em;
@@ -302,19 +300,20 @@ span {
     -webkit-line-break: auto;
     line-break: auto;
 }
-* {
-    -webkit-tap-highlight-color: transparent;
-}
-* {
-    -webkit-tap-highlight-color: transparent;
-}
-* {
-    -webkit-tap-highlight-color: rgba(0,0,0,0)!important;
-    -webkit-tap-highlight-color: transparent!important;
-}
 
 
 :focus-visible {
     outline: -webkit-focus-ring-color auto 1px;
 }
-
+.b-btn {
+    text-align: center;
+}
+.s-hc-c, .s-hc-c-b {
+    width: 100%;
+}
+.t .b-btn:not(.b-btn-5) .b-btn-l>.b-btn-t, .t .b-btn:not(.b-btn-5) .wnd-replace-form-button>.b-btn-t {
+    position: relative;
+}
+.b-btn-bw-1 .b-btn-l .b-btn-t, .b-btn-bw-1 .wnd-replace-form-button .b-btn-t {
+    text-decoration-thickness: 1px;
+}
