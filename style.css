@@ -345,4 +345,29 @@ span[Attributes Style] {
     padding: 0.3125rem;
     overflow: hidden;
 }
+.l-sidebar .wnd-w-wide .s-c {
+    max-width: 88.75rem;
+}
+.s-hc .s-c, .s-hc .s-o, .s-hc .s-w {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+}
+.wnd-p-cc .s-c {
+    justify-content: center;
+    align-items: center;
+}
+.wnd-s-normal .s-c {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+.s-c {
+    position: relative;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0 auto;
+}
 
