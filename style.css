@@ -238,3 +238,51 @@ h2 {
     padding: 0;
     margin: 0;
 }
+.t-btn-fw-l.t-p-fw-l .t .b-btn-l, .t-btn-fw-l.t-p-fw-l .t .wnd-replace-form-button {
+    font-weight: 400;
+}
+.t-p-fs-s .t .b-btn-l, .t-p-fs-s .t .wnd-replace-form-button {
+    font-size: .6875rem;
+}
+.sc-w .b-btn-2 .b-btn-l, .sc-w .b-btn-2 .wnd-replace-form-button, .sc-w.s-c .b-btn-2 .b-btn-l, .sc-w.s-c .b-btn-2 .wnd-replace-form-button {
+    color: #393939;
+    background-color: transparent;
+    border-color: #9d9d9d;
+}
+.wnd-cms .b-btn .b-btn-l, .wnd-cms .b-btn .wnd-replace-form-button {
+    cursor: default;
+}
+.t .b-btn-l, .t .wnd-replace-form-button {
+    letter-spacing: .25em;
+    line-height: 2;
+    text-transform: uppercase;
+    font-family: Josefin Sans Flex,Josefin-Sans-Flex-Fallback,sans-serif;
+}
+
+.b-btn-sq .b-btn-l, .b-btn-sq .wnd-replace-form-button {
+    border-radius: 0;
+}
+.b-btn-bw-1 .b-btn-l, .b-btn-bw-1 .wnd-replace-form-button {
+    border-width: 1px;
+}
+.b-btn-s-l .b-btn-l, .b-btn-s-l .wnd-replace-form-button {
+    min-width: 100%;
+    max-width: 100%;
+    padding: 0.875rem 2rem;
+}
+.b-btn .b-btn-l, .b-btn .wnd-replace-form-button {
+    transition: all .3s;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border-style: solid;
+}
+.b-btn {
+    text-align: center;
+}
+
