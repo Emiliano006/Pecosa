@@ -292,14 +292,6 @@ span[Attributes Style] {
 .claim .claim-46 {
     font-size: 1.75rem;
 }
-@media screen and (min-width: 37.5em)
-.claim .claim-46 {
-    font-size: 2.125rem;
-}
-@media screen and (min-width: 37.5em)
-.claim-nb {
-    line-height: 150%;
-}
 .claim-nb {
     line-height: 156%;
 }
@@ -356,5 +348,221 @@ span[Attributes Style] {
     flex-direction: column;
     align-content: center;
     height: inherit;
+}
+.s-bg, .s-bg-l {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.wnd-cms .s-hn .h-w {
+    position: relative;
+    z-index: auto;
+}
+.s-hn-sidebar .h-w {
+    position: relative;
+    z-index: auto;
+}
+.s-hn .h-w {
+    transition: background .3s linear;
+    width: 100%;
+    background-color: transparent;
+    z-index: 70;
+}
+.wnd-fixed {
+    border-bottom: 0 solid transparent;
+}
+.s-hn-sidebar.s-hn .s-i {
+    padding: 0;
+    position: relative;
+    overflow: visible;
+}
+.l-sidebar .l-h .s-i {
+    padding: 0!important;
+}
+.s-hn-sidebar .s-i {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+}
+element.style {
+    padding-bottom: 117px;
+}
+.s-hn-sidebar.s-hn .n-l {
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.s-hn .n-l, .s-hn .s-c {
+    width: 100%;
+    height: 100%;
+}
+.s-hn-sidebar.s-hn .s-c {
+    margin: 0!important;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+.s-hn .s-c {
+    position: relative;
+    padding: 0.3125rem 0;
+    margin: 0!important;
+}
+.logo-sidebar .logo-block {
+    width: 100%;
+}
+.logo-sidebar .b-l[class*=iar].logo-nb {
+    margin-left: -0.3125rem;
+}
+.sc-w .logo-default {
+    color: #393939;
+}
+.logo-classic .logo-15, .logo-classic .logo-17, .logo-classic .logo-21, .logo-sidebar .logo-15, .logo-sidebar .logo-17, .logo-sidebar .logo-21 {
+    line-height: 1.6;
+}
+.logo.logo-15, .logo.logo-17, .logo.logo-21, .logo.logo-25, .logo.logo-28 {
+    font-size: .95rem;
+}
+.b-l.cormorant, .b-l.open-sans {
+    letter-spacing: .125rem;
+}
+.logo-sidebar .b-l {
+    max-width: 15rem;
+    overflow: hidden;
+    margin-left: calc(-0.3125rem - 0.21em);
+}
+.logo-sidebar .b-l-c {
+    display: table;
+    padding: 0.125rem 0.3125rem;
+}
+.logo-sidebar .b-l-image {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 0.75rem;
+    padding-top: 0.1875rem;
+    padding-bottom: 0.1875rem;
+}
+.logo-sidebar .b-l-text {
+    display: table-cell;
+    vertical-align: middle;
+}
+.logo-sidebar .b-l[class*=iar] .b-l-text-w {
+    margin-left: -0.21em;
+}
+.logo .b-l-text-c {
+    max-height: 2.9em;
+}
+.logo-sidebar .b-l-text-c {
+    display: block;
+    overflow: hidden;
+    padding-left: 0.21em;
+    padding-right: 0.21em;
+}
+.sc-w #menu-mobile {
+    color: #393939;
+}
+#menu-mobile {
+    display: none;
+    pointer-events: all;
+}
+a {
+    color: inherit;
+}
+a {
+    background-color: transparent;
+}
+.s-hn-sidebar .cart-block {
+    display: block;
+}
+.sc-w.s-hn .cart {
+    color: #666;
+}
+.t .cart {
+    font-family: Josefin Sans Flex,Josefin-Sans-Flex-Fallback,sans-serif;
+}
+.s-hn .cart {
+    position: relative;
+    top: 0;
+}
+.s-hn .cart a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    line-height: 3.125rem;
+    height: 3.125rem;
+}
+.s-hn .cart a div {
+    float: left;
+}
+.s-hn .cart-content-link {
+    height: 100%;
+}
+.s-hn .cart-text {
+    display: none;
+    position: relative;
+}
+.sc-w.s-hn .cart-piece-count {
+    background: #393939;
+    color: #fff;
+}
+.t .cart-piece-count {
+    letter-spacing: normal;
+}
+.s-hn .cart-piece-count {
+    transition: opacity .3s ease-in-out;
+    font-size: .6875rem;
+    line-height: 1;
+    font-family: Montserrat Flex,Montserrat-Flex-Fallback,sans-serif;
+    position: absolute;
+    top: 1.375rem;
+    left: auto;
+    right: 0.3125rem;
+    font-weight: 700;
+    height: 1.125rem;
+    min-width: 1.125rem;
+    border-radius: 9px;
+    padding: 0.25rem 0.25rem 0;
+    opacity: 0;
+    text-align: center;
+    z-index: 1;
+}
+.s-hn .cart-piece-text, .s-hn .cart-price {
+    display: none;
+}
+.t .menu-font {
+    font-family: Josefin Sans Flex,Josefin-Sans-Flex-Fallback,sans-serif;
+}
+#menu ul, #menu ul li {
+    margin: 0;
+    list-style: none;
+}
+#menu ul {
+    padding: 0;
+}
+#menu ul li {
+    position: relative;
+}
+.t ul.level-1>li {
+    font-size: 0;
+}
+.t-nav-tt-n .t .cart-text span, .t-nav-tt-n .t .s-hn #menu ul.level-1>li>.menu-item>.menu-item-text, .t-nav-tt-n .t .search .search-bar-input, .t-nav-tt-n .t .search .search-icon-text {
+    font-size: .8125rem;
+}
+.t-nav-tt-n .t .cart-text span, .t-nav-tt-n .t .s-hn ul.level-1>li>.menu-item>.menu-item-text, .t-nav-tt-n .t .search-bar-input, .t-nav-tt-n .t .search-icon-text {
+    text-transform: none;
+}
+.more-text {
+    display: none;
 }
 
